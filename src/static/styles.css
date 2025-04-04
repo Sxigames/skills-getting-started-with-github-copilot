@@ -103,6 +103,29 @@ section h3 {
   font-weight: bold;
 }
 
+.participants {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  background-color: #f0f4ff;
+  border: 1px solid #d1e3ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.participants li {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.participants li::before {
+  content: "👤 Participant: ";
+  color: #1a237e;
+  font-weight: bold;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
